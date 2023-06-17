@@ -1,0 +1,19 @@
+https://stackoverflow.com/questions/41827109/funcanimation-with-a-matrix
+matshow() - matrix version of imshow() - https://stackoverflow.com/a/41829046
+
+
+Matplotlib Animations
+https://towardsdatascience.com/animations-with-matplotlib-d96375c5442c
+
+For different color with bounds for colors in matplotlib
+https://matplotlib.org/stable/tutorials/colors/colorbar_only.html
+
+
+For grid in image
+https://stackoverflow.com/questions/28885279/matplotlibs-matshow-not-aligned-with-grid
+Grid       - https://stackoverflow.com/a/28885550
+plot ticks - https://stackoverflow.com/a/12608937
+
+
+Colab - Gif display
+https://stackoverflow.com/a/28885550
