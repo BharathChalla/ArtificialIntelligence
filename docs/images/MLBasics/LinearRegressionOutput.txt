@@ -1,0 +1,25 @@
+SK Learn Linear Regression
+==========================
+The model performance for training set
+--------------------------------------
+RMSE is 5.291267334085863
+R2 score is 0.6493177656003104
+
+
+The model performance for testing set
+--------------------------------------
+RMSE is 6.041044703455954
+R2 score is 0.6162026947666575
+
+Scratch Linear Regression Implementation
+========================================
+The model performance for training set
+--------------------------------------
+RMSE is 5.291276945019069
+R2 score is 0.6493164916572722
+
+
+The model performance for testing set
+--------------------------------------
+RMSE is 6.035681389097256
+R2 score is 0.6168838722619777
