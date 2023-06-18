@@ -47,13 +47,13 @@
 ### CNN - Vertical Filter for Edge Detection
 
 <p>
-  <img src="./docs/images/NN/1.VerticalFilter.png" alt="Vertical Edge Detection" width="400" height="300" hspace="20"/>
+  <img src="./docs/images/NN/1.VerticalFilter.png" alt="Vertical Edge Detection" width="600" height="300" hspace="20"/>
 </p>
 
 ### CNN - Horizontal Filter for Edge Detection
 
 <p>
-  <img src="./docs/images/NN/2.HorizontalFilter.png" alt="Horizontal Edge Detection" width="400" height="300" hspace="20"/>
+  <img src="./docs/images/NN/2.HorizontalFilter.png" alt="Horizontal Edge Detection" width="600" height="300" hspace="20"/>
 </p>
 
 ### simpleCNN - Fashion MNIST Dataset
