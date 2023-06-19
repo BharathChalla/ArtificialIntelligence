@@ -173,6 +173,11 @@ Game won! Reward: 50
 ### 105.2 - Actor Critic
 
 ## 106 - Twitter Sentiment Analysis Using RNN
+### Twitter Dataset - Tweet Length Distribution  
+<p>
+  <img src="./docs/images/TwitterSentimentAnalysis/TwitterDataDistribution.png" alt="Tweet Length Distribution" width="400" height="300" hspace="20"/>
+</p>
+
 ### LSTM 
 ```text
 SentimentLSTM(
