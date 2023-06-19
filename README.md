@@ -1,3 +1,25 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  background-color:white;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.background-wrap {
+  display: inline;
+}
+</style>
+
 # ArtificialIntelligence
 
 ## 101 - Machine Learning Basics
@@ -21,10 +43,10 @@
 
 ### Titanic Dataset
 
-#### Heatmap
+#### Heatmap of each feature
 
-<p>
-  <img style="background-color:white" src="./docs/images/MLBasics/3_TitanicDatasetHeatmap.png" alt="Logistic Regression" width="400" height="300" hspace="20"/>
+<p style="background-color:white; display: inline-block;">
+  <img src="./docs/images/MLBasics/3_TitanicDatasetHeatmap.png" alt="Logistic Regression" width="480" height="300" hspace="40"/>
 </p>
 
 #### P-Class Boxplot for Age Missing Data
@@ -46,42 +68,24 @@
 
 ### CNN - Vertical Filter for Edge Detection
 
-<p>
-  <img style="background-color:white"  src="./docs/images/NN/1.VerticalFilter.png" alt="Vertical Edge Detection" width="600" height="300" hspace="20"/>
+<p style="background-color:white; display: inline-block;">
+  <img  src="./docs/images/NN/1.VerticalFilter.png" alt="Vertical Edge Detection" width="600" height="300" hspace="20"/>
 </p>
 
 ### CNN - Horizontal Filter for Edge Detection
 
-<p>
-  <img style="background-color:white"  src="./docs/images/NN/2.HorizontalFilter.png" alt="Horizontal Edge Detection" width="600" height="300" hspace="20"/>
+<p style="background-color:white; display: inline-block;">
+  <img src="./docs/images/NN/2.HorizontalFilter.png" alt="Horizontal Edge Detection" width="600" height="300" hspace="20"/>
 </p>
 
 ### simpleCNN - Fashion MNIST Dataset
 
-<style>
-* {
-  box-sizing: border-box;
-}
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-</style>
 <div class="row">
   <div class="column">
-    <img style="background-color:white"  src="./docs/images/NN/3.1LossVsEpoch.png" alt="Loss Vs Epoch" width="400" height="300" hspace="20">
+  <img src="./docs/images/NN/3.1LossVsEpoch.png" alt="Loss Vs Epoch" width="400" height="300">
   </div>
   <div class="column">
-    <img style="background-color:white"  src="./docs/images/NN/3.2.Predictions.png" alt="Predictions" width="400" height="300" hspace="20">
+  <img src="./docs/images/NN/3.2.Predictions.png" alt="Predictions" width="400" height="300">
   </div>
 </div>
 
@@ -89,10 +93,10 @@
 
 <div class="row">
   <div class="column">
-    <img style="background-color:white"  src="./docs/images/NN/4.1LossVsEpoch.png" alt="Loss Vs Epoch" width="400" height="300" hspace="20">
+  <img src="./docs/images/NN/4.1LossVsEpoch.png" alt="Loss Vs Epoch" width="400" height="300">
   </div>
   <div class="column">
-    <img style="background-color:white"  src="./docs/images/NN/4.2.Predictions.png" alt="Predictions" width="400" height="300" hspace="20">
+  <img src="./docs/images/NN/4.2.Predictions.png" alt="Predictions" width="400" height="300">
   </div>
 </div>
 
@@ -100,25 +104,24 @@
 
 ### Informed Search
 
-|     |                                                  Trajectory                                                   |                                                  Path                                                   |                                           Order Changed Trajectory                                            | Order Changed Path                                                                                      |
-|-----|:-------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|---------------------------------------------------------------------------------------------------------|
-| DFS | <img width="1604" style="background-color:white"  src="./docs/images/UnInformedSearch/1_1DFSTrajectory.png"> | <img width="1604" style="background-color:white"  src="./docs/images/UnInformedSearch/1_1DFSPath.png"> | <img width="1604" style="background-color:white"  src="./docs/images/UnInformedSearch/1_2DFSTrajectory.png"> | <img width="1604" style="background-color:white"  src="./docs/images/UnInformedSearch/1_2DFSPath.png"> |
-| BFS | <img width="1604" style="background-color:white"  src="./docs/images/UnInformedSearch/2_1BFSTrajectory.png"> | <img width="1604" style="background-color:white"  src="./docs/images/UnInformedSearch/2_1BFSPath.png"> | <img width="1604" style="background-color:white"  src="./docs/images/UnInformedSearch/2_2BFSTrajectory.png"> | <img width="1604" style="background-color:white"  src="./docs/images/UnInformedSearch/2_2BFSPath.png"> |
-| UCS | <img width="1604" style="background-color:white"  src="./docs/images/UnInformedSearch/3_1UCSTrajectory.png"> | <img width="1604" style="background-color:white"  src="./docs/images/UnInformedSearch/3_1UCSPath.png"> | <img width="1604" style="background-color:white"  src="./docs/images/UnInformedSearch/3_2UCSTrajectory.png"> | <img width="1604" style="background-color:white"  src="./docs/images/UnInformedSearch/3_2UCSPath.png"> |
+|     |                                  Trajectory                                  |                                  Path                                  |                           Order Changed Trajectory                           | Order Changed Path                                                     |
+|-----|:----------------------------------------------------------------------------:|:----------------------------------------------------------------------:|:----------------------------------------------------------------------------:|------------------------------------------------------------------------|
+| DFS | <img width="1604" src="./docs/images/UnInformedSearch/1_1DFSTrajectory.png"> | <img width="1604" src="./docs/images/UnInformedSearch/1_1DFSPath.png"> | <img width="1604" src="./docs/images/UnInformedSearch/1_2DFSTrajectory.png"> | <img width="1604" src="./docs/images/UnInformedSearch/1_2DFSPath.png"> |
+| BFS | <img width="1604" src="./docs/images/UnInformedSearch/2_1BFSTrajectory.png"> | <img width="1604" src="./docs/images/UnInformedSearch/2_1BFSPath.png"> | <img width="1604" src="./docs/images/UnInformedSearch/2_2BFSTrajectory.png"> | <img width="1604" src="./docs/images/UnInformedSearch/2_2BFSPath.png"> |
+| UCS | <img width="1604" src="./docs/images/UnInformedSearch/3_1UCSTrajectory.png"> | <img width="1604" src="./docs/images/UnInformedSearch/3_1UCSPath.png"> | <img width="1604" src="./docs/images/UnInformedSearch/3_2UCSTrajectory.png"> | <img width="1604" src="./docs/images/UnInformedSearch/3_2UCSPath.png"> |
 
 ### Uninformed Search
 
-|                  |                                                       Trajectory                                                        |                                                       Path                                                        |                                                Order Changed Trajectory                                                 | Order Changed Path                                                                                                |
-|------------------|:-----------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------:|-------------------------------------------------------------------------------------------------------------------|
-| Greedy Manhattan | <img width="1604" style="background-color:white"  src="./docs/images/InformedSearch/4_1GreedyManhattanTrajectory.png"> | <img width="1604" style="background-color:white"  src="./docs/images/InformedSearch/4_1GreedyManhattanPath.png"> | <img width="1604" style="background-color:white"  src="./docs/images/InformedSearch/4_2GreedyManhattanTrajectory.png"> | <img width="1604" style="background-color:white"  src="./docs/images/InformedSearch/4_2GreedyManhattanPath.png"> |
-| Greedy Euclidean | <img width="1604" style="background-color:white"  src="./docs/images/InformedSearch/5_1GreedyEuclideanTrajectory.png"> | <img width="1604" style="background-color:white"  src="./docs/images/InformedSearch/5_1GreedyEuclideanPath.png"> | <img width="1604" style="background-color:white"  src="./docs/images/InformedSearch/5_2GreedyEuclideanTrajectory.png"> | <img width="1604" style="background-color:white"  src="./docs/images/InformedSearch/5_2GreedyEuclideanPath.png"> |
-| A* Manhattan     | <img width="1604" style="background-color:white"  src="./docs/images/InformedSearch/6_1AStarManhattanTrajectory.png">  | <img width="1604" style="background-color:white"  src="./docs/images/InformedSearch/6_1AStarManhattanPath.png">  | <img width="1604" style="background-color:white"  src="./docs/images/InformedSearch/6_2AStarManhattanTrajectory.png">  | <img width="1604" style="background-color:white"  src="./docs/images/InformedSearch/6_2AStarManhattanPath.png">  |
-| A* Euclidean     | <img width="1604" style="background-color:white"  src="./docs/images/InformedSearch/7_1AStarEuclideanTrajectory.png">  | <img width="1604" style="background-color:white"  src="./docs/images/InformedSearch/7_1AStarEuclideanPath.png">  | <img width="1604" style="background-color:white"  src="./docs/images/InformedSearch/7_2AStarEuclideanTrajectory.png">  | <img width="1604" style="background-color:white"  src="./docs/images/InformedSearch/7_2AStarEuclideanPath.png">  |
+|                  |                                       Trajectory                                       |                                       Path                                       |                                Order Changed Trajectory                                | Order Changed Path                                                               |
+|------------------|:--------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------:|----------------------------------------------------------------------------------|
+| Greedy Manhattan | <img width="1604" src="./docs/images/InformedSearch/4_1GreedyManhattanTrajectory.png"> | <img width="1604" src="./docs/images/InformedSearch/4_1GreedyManhattanPath.png"> | <img width="1604" src="./docs/images/InformedSearch/4_2GreedyManhattanTrajectory.png"> | <img width="1604" src="./docs/images/InformedSearch/4_2GreedyManhattanPath.png"> |
+| Greedy Euclidean | <img width="1604" src="./docs/images/InformedSearch/5_1GreedyEuclideanTrajectory.png"> | <img width="1604" src="./docs/images/InformedSearch/5_1GreedyEuclideanPath.png"> | <img width="1604" src="./docs/images/InformedSearch/5_2GreedyEuclideanTrajectory.png"> | <img width="1604" src="./docs/images/InformedSearch/5_2GreedyEuclideanPath.png"> |
+| A* Manhattan     | <img width="1604" src="./docs/images/InformedSearch/6_1AStarManhattanTrajectory.png">  | <img width="1604" src="./docs/images/InformedSearch/6_1AStarManhattanPath.png">  | <img width="1604" src="./docs/images/InformedSearch/6_2AStarManhattanTrajectory.png">  | <img width="1604" src="./docs/images/InformedSearch/6_2AStarManhattanPath.png">  |
+| A* Euclidean     | <img width="1604" src="./docs/images/InformedSearch/7_1AStarEuclideanTrajectory.png">  | <img width="1604" src="./docs/images/InformedSearch/7_1AStarEuclideanPath.png">  | <img width="1604" src="./docs/images/InformedSearch/7_2AStarEuclideanTrajectory.png">  | <img width="1604" src="./docs/images/InformedSearch/7_2AStarEuclideanPath.png">  |
 
 ## 104 - Minimax Search
 
 ### <center>Without Alpha-Beta Pruning</center>
-
 <p align="center">
   <img src="./docs/images/MinMaxSearch/MinimaxSearchMethodDepth6.gif" alt="Mini-max Search"/>
 </p>
@@ -132,6 +135,7 @@
 ## 105 - Reinforcement Learning
 
 ### 105.1 - Deep Q Learning - Value Iteration
+
 ```text
 Initial State:
 '🙂'	'()'	'()'	'()'	'()'
@@ -170,15 +174,19 @@ Move #: 3; Taking action: Down
 
 Game won! Reward: 50
 ```
+
 ### 105.2 - Actor Critic
 
 ## 106 - Twitter Sentiment Analysis Using RNN
-### Twitter Dataset - Tweet Length Distribution  
-<p>
+
+### Twitter Dataset - Tweet Length Distribution
+
+<p style="background-color:white; display: inline-block;">
   <img src="./docs/images/TwitterSentimentAnalysis/TwitterDataDistribution.png" alt="Tweet Length Distribution" width="400" height="300" hspace="20"/>
 </p>
 
-### LSTM 
+### LSTM
+
 ```text
 SentimentLSTM(
   (embedding): Embedding(850173, 400)
@@ -190,6 +198,7 @@ SentimentLSTM(
   (sig): Sigmoid()
 )
 ```
+
 ```text
 Twitter 1,600,000 Data Accuracies: 
 Train loss: 0.288
@@ -202,7 +211,8 @@ Test loss: 0.537
 Test accuracy: 0.752
 ```
 
-### GRU 
+### GRU
+
 ```text
 SentimentGRU(
   (embedding): Embedding(850173, 400)
@@ -214,6 +224,7 @@ SentimentGRU(
   (sig): Sigmoid()
 )
 ```
+
 ```text
 Twitter 1,600,000 Data Accuracies: 
 Train loss: 0.367
@@ -225,7 +236,8 @@ Valid accuracy: 0.737
 Test loss: 0.539
 Test accuracy: 0.727
 ```
-# Project -
+
+# Projects
 
 ## Image Classification Deep Convolutional Neural Networks
 
