@@ -1,5 +1,5 @@
 <style>
-* {
+{
   box-sizing: border-box;
 }
 
@@ -14,9 +14,6 @@
   content: "";
   clear: both;
   display: table;
-}
-.background-wrap {
-  display: inline;
 }
 </style>
 
